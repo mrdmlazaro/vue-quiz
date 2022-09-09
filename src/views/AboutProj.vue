@@ -2,6 +2,26 @@
     <div class="workspace">
         <v-card class="vcard" max-width="812px" color="#5485b4">
             <h1>ABOUT THE PROJECT</h1>
+            <h1>INFO-RELATED</h1>
+            <h2>[PERSONAL INFORMATION]</h2>
+            <p> This shows the basic information of Raphael Daniel Lazaro.
+                <br><br>
+            </p>
+            <h2>[VUETIFY RESEARCH]</h2>
+            <p> This shows the necessary information of about Vuetify.
+                <br><br>
+            </p>
+            <h1>LABORATORIES</h1>
+            <img alt="Math" src="/math.png" />
+            <p> The basic calculator that I've created consists of buttons for addition, subtraction, division, multiplication,
+                and the average. Once you've inputted two numbers and pressing the button of your choice, it will display the total.
+            </p>
+            <img alt="String" src="/string_manipulator.png" />
+            <p> The string manipulation consists of a single button to count and convert. Upon clicking this, it will show the number of
+                vowels, numbers, and consonants in the given string that the user inputted. Also, there is a part where it converts
+                all the vowels in the string into an asterisk (*).
+
+            </p>
             <img alt="QuizAbout" class="center" src="/quizapp.png" />
             <p> The Sports Quiz in the Quiz tab contains random questions from the Open Trivia Database. In
                 the API helper, you are given the chance to select the number of questions, category, difficulty,
@@ -34,6 +54,11 @@
 }
 
 .workspace h1 {
+    color: white;
+    font-family: "Gotham Medium", Helvetica, Arial;
+    font-weight: 500;
+}
+.workspace h2 {
     color: white;
     font-family: "Gotham Bold", Helvetica, Arial;
     font-weight: 500;

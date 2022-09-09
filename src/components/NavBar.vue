@@ -47,7 +47,7 @@ const items = ref([
   { title: 'String Manipulation', icon: 'mdi-code-string', path: '/stringApp' },
   { title: 'Vuetify Research', icon: 'mdi-vuetify', path: '/vuetify' },
   { title: 'Quiz', icon: 'mdi-note-outline', path: '/quiz' },
-  { title: 'About the Quiz', icon: 'mdi-file-document', path: '/abtquiz' },
+  { title: 'About the Project', icon: 'mdi-file-document', path: '/abtquiz' },
 ])
 
 function toggleDrawer() {
