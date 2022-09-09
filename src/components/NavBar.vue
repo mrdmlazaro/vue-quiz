@@ -3,15 +3,15 @@
     <v-toolbar color="#b3ceec" app>
       <v-app-bar-nav-icon color="white" @click='toggleDrawer'></v-app-bar-nav-icon>
       <v-toolbar-title>
-        <span class="title-lab">Laboratory 5</span>
+        <span class="title-lab">LABORATORY COMPILATION</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <!-- dropdown menu -->
 
       <v-menu open-on-hover>
         <template v-slot:activator="{ props }">
-          <v-btn color="primary" v-bind="props">
-            SELECT
+          <v-btn class="menu" color="primary" v-bind="props">
+            CHOOSE DESIRED LAB
           </v-btn>
         </template>
 
@@ -42,11 +42,12 @@ const drawer = ref(false)
 
 const items = ref([
 
-  { title: 'Homepage', icon: 'mdi-home', path: '/' },
-  { title: 'Math', icon: 'mdi-plus-one', path: '/basicMath' },
-  { title: 'String App', icon: 'mdi-code-string', path: '/stringApp' },
-  { title: 'Vuetify', icon: 'mdi-vuetify', path: '/vuetify' },
+  { title: 'About Me', icon: 'mdi-account', path: '/' },
+  { title: 'Basic Calculator', icon: 'mdi-plus-one', path: '/basicMath' },
+  { title: 'String Manipulation', icon: 'mdi-code-string', path: '/stringApp' },
+  { title: 'Vuetify Research', icon: 'mdi-vuetify', path: '/vuetify' },
   { title: 'Quiz', icon: 'mdi-note-outline', path: '/quiz' },
+  { title: 'About the Quiz', icon: 'mdi-file-document', path: '/abtquiz' },
 ])
 
 function toggleDrawer() {
@@ -55,6 +56,10 @@ function toggleDrawer() {
 </script>
 
 <style scoped>
+.menu{
+  color: white;
+  font-family: "Gotham Bold", Helvetica, Arial;
+}
 .title-lab {
   color: white;
   font-family: "Gotham Bold", Helvetica, Arial;

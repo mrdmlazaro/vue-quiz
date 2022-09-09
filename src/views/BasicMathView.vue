@@ -2,7 +2,7 @@
   <v-container class="container" fluid>
     <div class="workspace">
       <v-card class="vcard" max-width="512px" color="#5485b4">
-        <v-card-title class="title"> BASIC MATH </v-card-title>
+        <img alt="Math" src="/math.png" />
         <v-text-field class="text-field" label="First Input" v-model.number="number1"></v-text-field>
         <v-text-field class="text-field" label="Second Input" v-model.number="number2"></v-text-field>
 

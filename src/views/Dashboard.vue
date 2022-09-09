@@ -6,7 +6,7 @@
         related to Photoshop and anything design-related in creating a web application or mobile
         application.
     </p>
-    <img alt="Profile" class="center" src="/sample.png" width="512" height="512" />
+    <img alt="AboutMe" class="center" src="/aboutme.png" width="512" height="512" />
     </div>
 </template>
 

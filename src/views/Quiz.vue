@@ -1,7 +1,7 @@
 <template>
     <div id="quiz-container">
         <v-card class="vcard" max-width="512px" color="#5485b4">
-            <v-card-title class="title"> SPORTS QUIZ! </v-card-title>
+            <img alt="Sports" src="/sports.png" />
             <h5>Score: {{score}}/{{questions.length}}</h5>
             <h3>Question: {{currentNumberQuestion}} / {{questions.length}}</h3>
             <!-- div#correctAnswers -->

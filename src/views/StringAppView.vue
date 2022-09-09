@@ -2,8 +2,7 @@
      <v-container class="container" fluid>
           <div class="workspace">
                <v-card class="vcard" max-width="724px" color="#5485b4">
-                    <v-card-title class="title"> STRING MANIPULATOR </v-card-title>
-
+                    <img alt="String" src="/string_manipulator.png" />
                     <v-text-field class="text-field" label="Enter a String" v-model="text1"></v-text-field>
 
                     <v-btn class="btn" rounded color="indigo" v-on:click="show">
